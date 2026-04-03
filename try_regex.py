@@ -3,7 +3,7 @@ import re
 
 def try_regex():
     expr = r"\w+"
-    test_str = input("Give me a string: ")
+    test_str = input("No more string >:)")
     match = re.search(expr, test_str)
     print(
         f"The expression matched {match[0]}"
