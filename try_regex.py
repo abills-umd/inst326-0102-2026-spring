@@ -10,6 +10,9 @@ def try_regex():
         if match
         else "There was no match :("
     )
+    
+def help():
+    print("I don't know what else to add")
 
 
 if __name__ == "__main__":
