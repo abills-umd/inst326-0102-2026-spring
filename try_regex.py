@@ -8,7 +8,7 @@ def try_regex():
     print(
         f"The expression matched {match[0]}"
         if match
-        else "There was no match :("
+        else "🐹 wowowow"
     )
     
 def help():
