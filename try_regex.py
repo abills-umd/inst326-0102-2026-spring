@@ -2,13 +2,14 @@ import re
 
 
 def try_regex():
-    expr = r"\w+"
+    print("Let's try a regex!")
+    expr = r"^\w+$"
     test_str = input("Give me a string: ")
     match = re.search(expr, test_str)
     print(
-        f"The expression matched {match[0]}"
+        f"The regular expression matched {match[0]}"
         if match
-        else "There was no match :("
+        else "There was no match :( Boo!"
     )
 
 
