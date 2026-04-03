@@ -1,7 +1,7 @@
 import re
 
 
-def try_regex():
+def try_regex_print():
     expr = r"\w+"
     test_str = input("No more string >:)")
     match = re.search(expr, test_str)
